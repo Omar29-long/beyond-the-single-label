@@ -66,7 +66,7 @@ Different task. Not attributing an author, but finding which caption matches whi
 | SigLIP | 5.59 | 4.43 |
 | XLM-R CLIP | **7.96** | **6.49** |
 
-Chance sits at 0.02%. So 7.96% is roughly 400 times chance, against 10 times for classification. Not a variation, a different order of magnitude. Significant in both directions, p < 0.001.
+Chance sits at 0.02%. So 7.96% is roughly 400 times chance, against 10 times for classification. A different order of magnitude. Significant in both directions, p < 0.001.
 
 91% of the corpus text is in English, verified by language detection, which is why retrieval is evaluated in English only.
 
