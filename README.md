@@ -1,10 +1,12 @@
 *Arab artistic heritage put to the test of digital recognition models*
 
-# Beyond the Single Label
+# Measuring Orientalist Dysnomia in Vision–Language Models: The Case of Modern Arab Art
+
+Code and corpus metadata for the paper (preprint forthcoming on arXiv), which extends the Master's thesis *Beyond the Single Label* (DUSDA7, Université Paris 1 Panthéon-Sorbonne, 2026).
+
+**Orientalist dysnomia**: vision–language models perceive modern Arab art (they retrieve matching captions at about 400 times chance) yet fail to name its artists (about 2.5% Top-1 attribution). They see the work but cannot name who made it.
 
 Zero-shot evaluation of CLIP, SigLIP and XLM-R CLIP on Turath-Art (Kiyasseh & El-Bouri, 2022), and on an independent corpus of 5,158 works built for this project from three Arab art institutions.
-
-Master's thesis, DUSDA7, Université Paris 1 Panthéon-Sorbonne, 2026.
 
 ---
 
@@ -153,6 +155,26 @@ And the negative result is the one that matters. Text-level intervention does no
 
 ---
 
+## Related project
+
+[Tafseel](https://tafseel.art) is a game where players identify a work of Islamic art from a detail. It is designed as a human counterpart to this benchmark: player attributions can be collected at scale and compared directly with model outputs.
+
+---
+
+## Citation
+
+```bibtex
+@misc{zeroual2026dysnomia,
+  title  = {Measuring Orientalist Dysnomia in Vision--Language Models: The Case of Modern Arab Art},
+  author = {Zeroual, Omar},
+  year   = {2026},
+  note   = {Preprint, forthcoming on arXiv},
+  url    = {https://github.com/Omar29-long/beyond-the-single-label}
+}
+```
+
+---
+
 ## Reference
 
 Kiyasseh, D. & El-Bouri, R. (2022). *Turath-150K: Image Database of Arab Heritage.*
@@ -161,7 +183,7 @@ Kiyasseh, D. & El-Bouri, R. (2022). *Turath-150K: Image Database of Arab Heritag
 
 ## En français
 
-Ce dépôt accompagne un mémoire de Master soutenu à l'Université Paris 1 Panthéon-Sorbonne en 2026, « Au-delà du label unique : audit, curation et paradoxes de l'enrichissement sémantique dans les espaces multimodaux du patrimoine artistique arabe ».
+Ce dépôt accompagne l'article « Measuring Orientalist Dysnomia in Vision–Language Models », issu d'un mémoire de Master soutenu à l'Université Paris 1 Panthéon-Sorbonne en 2026, « Au-delà du label unique : audit, curation et paradoxes de l'enrichissement sémantique dans les espaces multimodaux du patrimoine artistique arabe ».
 
 Mémoire disponible sur demande.
 
